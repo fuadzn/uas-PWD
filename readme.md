@@ -1,21 +1,20 @@
-# Lumen PHP Framework
+# Penjelasan
+Aplikasi ini adalah sebuah crud yang terdiri dari 1 `table` yaitu `t_nasabah` berisi data data yang memiliki rekening dan 
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+# Komponen
+CRUD diatur di dalam `controller` nya, `crud` untuk `t_nasabah` di atur di dalam file `NasabahController` 
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+# Cara kerja
+Back end ditempatkan pada lumen, dimana kita bisa menggunakan fungsi tersebut di vue dengan mengambil datanya
 
-## Official Documentation
+# File
+Ada 2 file dalam pembuatan aplikasi ini, antara lain : 
+1. Back End yang tersimpan di Lumen
+2. Front End yang tersimpan di Vue
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Cara penginstallan
+1. Clone/download https://github.com/fuadzn/uas-PWD
+2. Buka cmd dengan langsung ke director nya
+3. Masuk ke frontend nya
+4. Ketik npm run serve pada cmd tersebut.
+5. Selesai
